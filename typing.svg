@@ -1,19 +1,158 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="64" viewBox="0 0 400 64" role="img" aria-label="Backend Developer, Python Engineer, REST APIs and Microservices, Open-source Contributor">
-  <style>
-    .t { font-family: "Fira Code", "Cascadia Code", Consolas, "DejaVu Sans Mono", monospace; font-size: 22px; font-weight: 600; fill: #58A6FF; }
-    .c { fill: #58A6FF; }
-  </style>
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="260" viewBox="0 0 840 260" role="img" aria-label="Animated banner: welcome to my github, Backend Developer, Python Engineer, REST APIs and Microservices, Open-source Contributor">
   <defs>
-    <clipPath id="l1"><rect x="20" y="10" width="0" height="48"><animate attributeName="width" values="0;360;360;0;0" keyTimes="0;0.07;0.20;0.25;1" dur="16s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="l2"><rect x="20" y="10" width="0" height="48"><animate attributeName="width" values="0;360;360;0;0" keyTimes="0;0.07;0.20;0.25;1" dur="16s" begin="4s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="l3"><rect x="20" y="10" width="0" height="48"><animate attributeName="width" values="0;360;360;0;0" keyTimes="0;0.07;0.20;0.25;1" dur="16s" begin="8s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="l4"><rect x="20" y="10" width="0" height="48"><animate attributeName="width" values="0;360;360;0;0" keyTimes="0;0.07;0.20;0.25;1" dur="16s" begin="12s" repeatCount="indefinite"/></rect></clipPath>
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#58A6FF">
+        <animate attributeName="stop-color" values="#58A6FF;#BC8CFF;#3FB950;#58A6FF" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#BC8CFF">
+        <animate attributeName="stop-color" values="#BC8CFF;#3FB950;#58A6FF;#BC8CFF" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="textGrad" gradientUnits="userSpaceOnUse" x1="48" y1="90" x2="620" y2="130">
+      <stop offset="0" stop-color="#58A6FF"/>
+      <stop offset="0.5" stop-color="#BC8CFF"/>
+      <stop offset="1" stop-color="#F778BA"/>
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="orbBlur" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+    <clipPath id="cardClip">
+      <rect x="6" y="6" width="828" height="248" rx="20"/>
+    </clipPath>
+    <clipPath id="t1"><rect x="48" y="88" width="370" height="52"><animate attributeName="width" values="0;370;370;0;0" keyTimes="0;0.07;0.20;0.25;1" dur="16s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t2"><rect x="48" y="88" width="326" height="52"><animate attributeName="width" values="0;326;326;0;0" keyTimes="0;0.07;0.20;0.25;1" dur="16s" begin="4s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t3"><rect x="48" y="88" width="543" height="52"><animate attributeName="width" values="0;543;543;0;0" keyTimes="0;0.07;0.20;0.25;1" dur="16s" begin="8s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t4"><rect x="48" y="88" width="500" height="52"><animate attributeName="width" values="0;500;500;0;0" keyTimes="0;0.07;0.20;0.25;1" dur="16s" begin="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="s1"><rect x="-140" y="88" width="150" height="52"><animate attributeName="x" values="-140;546;546" keyTimes="0;0.08;1" dur="16s" begin="1.2s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="s2"><rect x="-140" y="88" width="150" height="52"><animate attributeName="x" values="-140;505;505" keyTimes="0;0.08;1" dur="16s" begin="5.2s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="s3"><rect x="-140" y="88" width="150" height="52"><animate attributeName="x" values="-140;710;710" keyTimes="0;0.08;1" dur="16s" begin="9.2s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="s4"><rect x="-140" y="88" width="150" height="52"><animate attributeName="x" values="-140;669;669" keyTimes="0;0.08;1" dur="16s" begin="13.2s" repeatCount="indefinite"/></rect></clipPath>
+    <style><![CDATA[
+      .mono { font-family: "Fira Code","Cascadia Code",Consolas,"DejaVu Sans Mono",monospace; }
+      .sans { font-family: -apple-system,"Segoe UI",Helvetica,Arial,sans-serif; }
+      .typed { font-size: 34px; font-weight: 700; fill: url(#textGrad); }
+      .shiny { font-size: 34px; font-weight: 700; fill: url(#shineGrad); }
+      .kicker { font-size: 15px; fill: #7EE787; }
+      .pillText { font-size: 14px; fill: #C9D1D9; }
+      .availText { font-size: 13px; fill: #7EE787; }
+      .foot { font-size: 12px; fill: #8B949E; }
+      .card { animation: rise .9s cubic-bezier(.2,.7,.3,1) both; }
+      @keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+      .kcur { animation: blink 1.05s step-end infinite; }
+      @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+      .mcur { animation: blink 1.05s step-end infinite; }
+      .p { animation: drift linear infinite; }
+      @keyframes drift { 0% { transform: translateY(0); opacity: 0; } 12% { opacity: .75; } 80% { opacity: .45; } 100% { transform: translateY(-46px); opacity: 0; } }
+      .pill { animation: bob 3.2s ease-in-out infinite alternate; }
+      @keyframes bob { from { transform: translateY(0); } to { transform: translateY(-3px); } }
+      .sp { transform-box: fill-box; transform-origin: center; animation: tw 2.6s ease-in-out infinite; }
+      @keyframes tw { 0%,100% { transform: scale(.5); opacity: .25; } 50% { transform: scale(1.15); opacity: .95; } }
+      .adot { transform-box: fill-box; transform-origin: center; animation: pulse 1.8s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.45); opacity: .55; } }
+      .orb1 { animation: float1 11s ease-in-out infinite alternate; }
+      @keyframes float1 { from { transform: translate(0,0); } to { transform: translate(-38px,26px); } }
+      .orb2 { animation: float2 13s ease-in-out infinite alternate; }
+      @keyframes float2 { from { transform: translate(0,0); } to { transform: translate(34px,-24px); } }
+    ]]></style>
   </defs>
-  <text class="t" x="20" y="42" clip-path="url(#l1)">Backend Developer</text>
-  <text class="t" x="20" y="42" clip-path="url(#l2)">Python Engineer</text>
-  <text class="t" x="20" y="42" clip-path="url(#l3)">REST APIs &amp; Microservices</text>
-  <text class="t" x="20" y="42" clip-path="url(#l4)">Open-source Contributor</text>
-  <rect class="c" x="20" y="22" width="9" height="26">
-    <animate attributeName="x" values="20;380;380;20;380;380;20;380;380;20;380;380;20" keyTimes="0;0.07;0.20;0.25;0.32;0.45;0.50;0.57;0.70;0.75;0.82;0.95;1" dur="16s" begin="0s" repeatCount="indefinite"/>
-  </rect>
+
+  <g class="card">
+    <rect x="6" y="6" width="828" height="248" rx="20" fill="#0D1117" fill-opacity="0.93"/>
+
+    <g clip-path="url(#cardClip)">
+      <circle class="orb1" cx="770" cy="48" r="86" fill="#1F6FEB" opacity="0.30" filter="url(#orbBlur)"/>
+      <circle class="orb2" cx="110" cy="238" r="76" fill="#A371F7" opacity="0.26" filter="url(#orbBlur)"/>
+
+      <circle class="p" cx="180" cy="210" r="2.5" fill="#58A6FF" style="animation-duration:9s;animation-delay:0s"/>
+      <circle class="p" cx="320" cy="235" r="2" fill="#BC8CFF" style="animation-duration:12s;animation-delay:2.5s"/>
+      <circle class="p" cx="470" cy="220" r="2.5" fill="#3FB950" style="animation-duration:10s;animation-delay:1.2s"/>
+      <circle class="p" cx="640" cy="240" r="2" fill="#F778BA" style="animation-duration:13s;animation-delay:4s"/>
+      <circle class="p" cx="730" cy="215" r="2.5" fill="#58A6FF" style="animation-duration:11s;animation-delay:3.2s"/>
+      <circle class="p" cx="255" cy="228" r="1.8" fill="#7EE787" style="animation-duration:14s;animation-delay:5.4s"/>
+      <circle class="p" cx="560" cy="232" r="1.8" fill="#BC8CFF" style="animation-duration:9.5s;animation-delay:6.1s"/>
+      <circle class="p" cx="95" cy="205" r="2.2" fill="#F778BA" style="animation-duration:12.5s;animation-delay:.8s"/>
+      <circle class="p" cx="815" cy="230" r="2" fill="#3FB950" style="animation-duration:10.5s;animation-delay:7.3s"/>
+      <circle class="p" cx="410" cy="245" r="1.6" fill="#58A6FF" style="animation-duration:13.5s;animation-delay:8.2s"/>
+    </g>
+
+    <rect x="7" y="7" width="826" height="246" rx="19" fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
+
+    <text class="mono kicker" x="48" y="60">$ echo "welcome to my github"</text>
+    <rect class="kcur" x="314" y="48" width="9" height="14" fill="#7EE787"/>
+
+    <rect x="608" y="40" width="196" height="26" rx="13" fill="#12261A" stroke="#238636" stroke-width="1"/>
+    <circle class="adot" cx="624" cy="53" r="4.5" fill="#3FB950"/>
+    <text class="sans availText" x="636" y="57">Open to opportunities</text>
+
+    <g clip-path="url(#t1)">
+      <text class="mono typed" x="48" y="125">Backend Developer</text>
+      <text class="mono shiny" x="48" y="125" clip-path="url(#s1)">Backend Developer</text>
+    </g>
+    <g clip-path="url(#t2)">
+      <text class="mono typed" x="48" y="125">Python Engineer</text>
+      <text class="mono shiny" x="48" y="125" clip-path="url(#s2)">Python Engineer</text>
+    </g>
+    <g clip-path="url(#t3)">
+      <text class="mono typed" x="48" y="125">REST APIs &amp; Microservices</text>
+      <text class="mono shiny" x="48" y="125" clip-path="url(#s3)">REST APIs &amp; Microservices</text>
+    </g>
+    <g clip-path="url(#t4)">
+      <text class="mono typed" x="48" y="125">Open-source Contributor</text>
+      <text class="mono shiny" x="48" y="125" clip-path="url(#s4)">Open-source Contributor</text>
+    </g>
+    <rect class="mcur" x="48" y="98" width="11" height="34" rx="2" fill="#BC8CFF" filter="url(#glow)">
+      <animate attributeName="x" values="48;404;404;48;363;363;48;568;568;48;527;527;48" keyTimes="0;0.07;0.20;0.25;0.32;0.45;0.50;0.57;0.70;0.75;0.82;0.95;1" dur="16s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+
+    <g>
+      <g class="pill" style="animation-delay:0s">
+        <rect x="48" y="155" width="84" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+        <circle cx="66" cy="172" r="5" fill="#3776AB"/>
+        <text class="sans pillText" x="78" y="177">Python</text>
+      </g>
+      <g class="pill" style="animation-delay:.4s">
+        <rect x="142" y="155" width="90" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+        <circle cx="160" cy="172" r="5" fill="#009688"/>
+        <text class="sans pillText" x="172" y="177">FastAPI</text>
+      </g>
+      <g class="pill" style="animation-delay:.8s">
+        <rect x="242" y="155" width="86" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+        <circle cx="260" cy="172" r="5" fill="#44B78B"/>
+        <text class="sans pillText" x="272" y="177">Django</text>
+      </g>
+      <g class="pill" style="animation-delay:1.2s">
+        <rect x="338" y="155" width="112" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+        <circle cx="356" cy="172" r="5" fill="#4169E1"/>
+        <text class="sans pillText" x="368" y="177">PostgreSQL</text>
+      </g>
+      <g class="pill" style="animation-delay:1.6s">
+        <rect x="460" y="155" width="86" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+        <circle cx="478" cy="172" r="5" fill="#2496ED"/>
+        <text class="sans pillText" x="490" y="177">Docker</text>
+      </g>
+      <g class="pill" style="animation-delay:2s">
+        <rect x="556" y="155" width="64" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+        <circle cx="574" cy="172" r="5" fill="#F05032"/>
+        <text class="sans pillText" x="586" y="177">Git</text>
+      </g>
+    </g>
+
+    <path class="sp" d="M0,-7 L1.9,-1.9 7,0 1.9,1.9 0,7 -1.9,1.9 -7,0 -1.9,-1.9 Z" fill="#7EE787" transform="translate(700,118)"/>
+    <path class="sp" style="animation-delay:.9s" d="M0,-7 L1.9,-1.9 7,0 1.9,1.9 0,7 -1.9,1.9 -7,0 -1.9,-1.9 Z" fill="#BC8CFF" transform="translate(764,150)"/>
+    <path class="sp" style="animation-delay:1.7s" d="M0,-7 L1.9,-1.9 7,0 1.9,1.9 0,7 -1.9,1.9 -7,0 -1.9,-1.9 Z" fill="#58A6FF" transform="translate(648,96)"/>
+
+    <text class="sans foot" x="790" y="234" text-anchor="end">clean code · performance · security</text>
+  </g>
 </svg>
