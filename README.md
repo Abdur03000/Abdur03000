@@ -1,17 +1,13 @@
 <p align="center">
   <a href="https://github.com/Abdur03000">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,100:a371f7&height=140&section=header" alt="Abdur Rahman banner" width="100%">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,50:BC8CFF,100:3FB950&height=140&section=header" alt="Abdur Rahman banner" width="100%">
   </a>
 </p>
 
 <h1 align="center">Abdur Rahman</h1>
 
 <p align="center">
-  <strong>Backend Developer · Python Engineer</strong>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Abdur03000/Abdur03000/main/typing.svg" width="100%" alt="Backend Developer, Python Engineer, REST APIs and Microservices, Open-source Contributor">
+  <img src="https://raw.githubusercontent.com/Abdur03000/Abdur03000/main/typing.svg" width="100%" alt="Animated bio: Backend Developer, Python Engineer, AI Engineer, REST APIs and Microservices, Open-source Contributor">
 </p>
 
 ---
@@ -19,6 +15,7 @@
 ### 🧭 About
 
 - 🔭 Currently building backend systems with **FastAPI** and the **Django** ecosystem
+- 🤖 Building **AI-powered applications** — assistants, agents and LLM integrations
 - 🏗️ Designing **REST APIs**, **microservices** and scalable system architecture
 - ♻️ **Open-source contributor** — fixes, features and improvements for the tools I use
 - ⚡ Driven by **clean code**, **performance** and **security**
@@ -74,10 +71,10 @@ Happy to collaborate on issues and pull requests, and always glad to help mainta
 
 ### 📬 Contact
 
-Always open to interesting backend projects and open-source collaboration — start a conversation in my [repositories](https://github.com/Abdur03000?tab=repositories).
+Always open to interesting backend and AI projects, and to open-source collaboration — start a conversation in my [repositories](https://github.com/Abdur03000?tab=repositories).
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Abdur03000&color=58A6FF" alt="Profile views">
 </p>
 
-<p align="center"><i>⚡ Clean code · Performance · Security</i></p>
+<p align="center"><i>⚡ Backend · AI Engineer · Clean code · Performance · Security</i></p>
