@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="64" viewBox="0 0 400 64" role="img" aria-label="Backend Developer, Python Engineer, REST APIs and Microservices, Open-source Contributor">
+  <style>
+    .t { font-family: "Fira Code", "Cascadia Code", Consolas, "DejaVu Sans Mono", monospace; font-size: 22px; font-weight: 600; fill: #58A6FF; }
+    .c { fill: #58A6FF; }
+  </style>
+  <defs>
+    <clipPath id="l1"><rect x="20" y="10" width="0" height="48"><animate attributeName="width" values="0;360;360;0;0" keyTimes="0;0.07;0.20;0.25;1" dur="16s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="l2"><rect x="20" y="10" width="0" height="48"><animate attributeName="width" values="0;360;360;0;0" keyTimes="0;0.07;0.20;0.25;1" dur="16s" begin="4s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="l3"><rect x="20" y="10" width="0" height="48"><animate attributeName="width" values="0;360;360;0;0" keyTimes="0;0.07;0.20;0.25;1" dur="16s" begin="8s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="l4"><rect x="20" y="10" width="0" height="48"><animate attributeName="width" values="0;360;360;0;0" keyTimes="0;0.07;0.20;0.25;1" dur="16s" begin="12s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+  <text class="t" x="20" y="42" clip-path="url(#l1)">Backend Developer</text>
+  <text class="t" x="20" y="42" clip-path="url(#l2)">Python Engineer</text>
+  <text class="t" x="20" y="42" clip-path="url(#l3)">REST APIs &amp; Microservices</text>
+  <text class="t" x="20" y="42" clip-path="url(#l4)">Open-source Contributor</text>
+  <rect class="c" x="20" y="22" width="9" height="26">
+    <animate attributeName="x" values="20;380;380;20;380;380;20;380;380;20;380;380;20" keyTimes="0;0.07;0.20;0.25;0.32;0.45;0.50;0.57;0.70;0.75;0.82;0.95;1" dur="16s" begin="0s" repeatCount="indefinite"/>
+  </rect>
+</svg>
