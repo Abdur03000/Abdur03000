@@ -1,8 +1,17 @@
+<p align="center">
+  <a href="https://github.com/Abdur03000">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,100:a371f7&height=140&section=header" alt="Abdur Rahman banner" width="100%">
+  </a>
+</p>
+
 <h1 align="center">Abdur Rahman</h1>
 
 <p align="center">
-  <strong>Backend Developer · Python Engineer</strong><br>
-  Building scalable APIs, clean architecture and reliable backend systems.
+  <strong>Backend Developer · Python Engineer</strong>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Abdur03000/Abdur03000/main/typing.svg" width="400" alt="Backend Developer, Python Engineer, REST APIs and Microservices, Open-source Contributor">
 </p>
 
 ---
@@ -37,13 +46,26 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
 </p>
 
+### 📈 GitHub stats
+
+| <img src="https://github-readme-stats.vercel.app/api?username=Abdur03000&show_icons=true&hide_border=true&hide_rank=true&hide=stars,prs,issues,contribs&include_all_commits=true&theme=tokyonight" alt="GitHub stats" height="165"> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdur03000&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Top languages" height="165"> |
+| :---: | :---: |
+
+### 🐍 Contribution graph
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abdur03000/Abdur03000/output/github-snake.svg">
+    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Abdur03000/Abdur03000/output/github-snake-light.svg">
+  </picture>
+</p>
+
 ### 📌 Featured projects
 
-- **[home-ai-assistant](https://github.com/Abdur03000/home-ai-assistant)** — AI-powered home assistant with a FastAPI backend, Next.js dashboard and PostgreSQL, fully dockerized.
-- **[APis-of-E_commerce-Website](https://github.com/Abdur03000/APis-of-E_commerce-Website)** — E-commerce REST API with JWT auth, SQLAlchemy, Alembic migrations and pytest coverage.
-- **[FASTAPI-structured--architecture](https://github.com/Abdur03000/FASTAPI-structured--architecture)** — Modular FastAPI project architecture with Alembic and Docker.
-- **[Library-Management-System-in-FASTAPI](https://github.com/Abdur03000/Library-Management-System-in-FASTAPI)** — Library management REST API with routers, schemas and file uploads.
-- **[HerSpace](https://github.com/Abdur03000/HerSpace)** — Modern lifestyle & beauty platform built with Next.js and TypeScript.
+| | |
+| :---: | :---: |
+| <a href="https://github.com/Abdur03000/home-ai-assistant"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Abdur03000&repo=home-ai-assistant&hide_border=true&theme=tokyonight" alt="home-ai-assistant"></a> | <a href="https://github.com/Abdur03000/APis-of-E_commerce-Website"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Abdur03000&repo=APis-of-E_commerce-Website&hide_border=true&theme=tokyonight" alt="E-commerce APIs"></a> |
+| <a href="https://github.com/Abdur03000/FASTAPI-structured--architecture"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Abdur03000&repo=FASTAPI-structured--architecture&hide_border=true&theme=tokyonight" alt="FastAPI structured architecture"></a> | <a href="https://github.com/Abdur03000/HerSpace"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Abdur03000&repo=HerSpace&hide_border=true&theme=tokyonight" alt="HerSpace"></a> |
 
 ### ♻️ Open source
 
@@ -54,4 +76,8 @@ Happy to collaborate on issues and pull requests, and always glad to help mainta
 
 Always open to interesting backend projects and open-source collaboration — start a conversation in my [repositories](https://github.com/Abdur03000?tab=repositories).
 
-<p align="center"><i>Clean code · Performance · Security</i></p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Abdur03000&color=58A6FF" alt="Profile views">
+</p>
+
+<p align="center"><i>⚡ Clean code · Performance · Security</i></p>
