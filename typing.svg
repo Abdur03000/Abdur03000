@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="260" viewBox="0 0 840 260" role="img" aria-label="Animated intro: hi I'm Abdur Rahman, Backend Developer, Python Engineer, AI Engineer, REST APIs and Microservices, Open-source Contributor">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="372" viewBox="0 0 840 372" role="img" aria-label="Abdur Rahman — animated intro: Backend Developer, Python Engineer, AI Engineer, REST APIs and Microservices, Open-source Contributor">
   <defs>
     <linearGradient id="borderGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#58A6FF">
@@ -8,7 +8,17 @@
         <animate attributeName="stop-color" values="#BC8CFF;#3FB950;#58A6FF;#BC8CFF" dur="9s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-    <linearGradient id="textGrad" gradientUnits="userSpaceOnUse" x1="48" y1="90" x2="620" y2="130">
+    <linearGradient id="nameGrad" gradientUnits="userSpaceOnUse" x1="48" y1="104" x2="430" y2="152">
+      <stop offset="0" stop-color="#58A6FF"/>
+      <stop offset="0.55" stop-color="#BC8CFF"/>
+      <stop offset="1" stop-color="#F778BA"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58A6FF"/>
+      <stop offset="0.5" stop-color="#BC8CFF"/>
+      <stop offset="1" stop-color="#3FB950"/>
+    </linearGradient>
+    <linearGradient id="textGrad" gradientUnits="userSpaceOnUse" x1="48" y1="204" x2="620" y2="244">
       <stop offset="0" stop-color="#58A6FF"/>
       <stop offset="0.5" stop-color="#BC8CFF"/>
       <stop offset="1" stop-color="#F778BA"/>
@@ -29,21 +39,24 @@
       <feGaussianBlur stdDeviation="34"/>
     </filter>
     <clipPath id="cardClip">
-      <rect x="6" y="6" width="828" height="248" rx="20"/>
+      <rect x="6" y="6" width="828" height="360" rx="20"/>
     </clipPath>
-    <clipPath id="t1"><rect x="48" y="88" width="0" height="52"><animate attributeName="width" values="0;370;370;0;0" keyTimes="0;0.055;0.16;0.20;1" dur="20s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="t2"><rect x="48" y="88" width="0" height="52"><animate attributeName="width" values="0;326;326;0;0" keyTimes="0;0.055;0.16;0.20;1" dur="20s" begin="4s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="t3"><rect x="48" y="88" width="0" height="52"><animate attributeName="width" values="0;250;250;0;0" keyTimes="0;0.055;0.16;0.20;1" dur="20s" begin="8s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="t4"><rect x="48" y="88" width="0" height="52"><animate attributeName="width" values="0;543;543;0;0" keyTimes="0;0.055;0.16;0.20;1" dur="20s" begin="12s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="t5"><rect x="48" y="88" width="0" height="52"><animate attributeName="width" values="0;500;500;0;0" keyTimes="0;0.055;0.16;0.20;1" dur="20s" begin="16s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="s1"><rect x="-140" y="88" width="150" height="52"><animate attributeName="x" values="-140;546;546" keyTimes="0;0.08;1" dur="20s" begin="1.2s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="s2"><rect x="-140" y="88" width="150" height="52"><animate attributeName="x" values="-140;505;505" keyTimes="0;0.08;1" dur="20s" begin="5.2s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="s3"><rect x="-140" y="88" width="150" height="52"><animate attributeName="x" values="-140;423;423" keyTimes="0;0.08;1" dur="20s" begin="9.2s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="s4"><rect x="-140" y="88" width="150" height="52"><animate attributeName="x" values="-140;710;710" keyTimes="0;0.08;1" dur="20s" begin="13.2s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="s5"><rect x="-140" y="88" width="150" height="52"><animate attributeName="x" values="-140;669;669" keyTimes="0;0.08;1" dur="20s" begin="17.2s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="nameClip"><rect x="-400" y="100" width="340" height="76"><animate attributeName="x" values="-400;560;560" keyTimes="0;0.5;1" dur="6s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t1"><rect x="48" y="199" width="0" height="52"><animate attributeName="width" values="0;370;370;0;0" keyTimes="0;0.055;0.16;0.20;1" dur="20s" begin="0s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t2"><rect x="48" y="199" width="0" height="52"><animate attributeName="width" values="0;326;326;0;0" keyTimes="0;0.055;0.16;0.20;1" dur="20s" begin="4s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t3"><rect x="48" y="199" width="0" height="52"><animate attributeName="width" values="0;250;250;0;0" keyTimes="0;0.055;0.16;0.20;1" dur="20s" begin="8s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t4"><rect x="48" y="199" width="0" height="52"><animate attributeName="width" values="0;543;543;0;0" keyTimes="0;0.055;0.16;0.20;1" dur="20s" begin="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="t5"><rect x="48" y="199" width="0" height="52"><animate attributeName="width" values="0;500;500;0;0" keyTimes="0;0.055;0.16;0.20;1" dur="20s" begin="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="s1"><rect x="-140" y="199" width="150" height="52"><animate attributeName="x" values="-140;546;546" keyTimes="0;0.08;1" dur="20s" begin="1.2s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="s2"><rect x="-140" y="199" width="150" height="52"><animate attributeName="x" values="-140;505;505" keyTimes="0;0.08;1" dur="20s" begin="5.2s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="s3"><rect x="-140" y="199" width="150" height="52"><animate attributeName="x" values="-140;423;423" keyTimes="0;0.08;1" dur="20s" begin="9.2s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="s4"><rect x="-140" y="199" width="150" height="52"><animate attributeName="x" values="-140;710;710" keyTimes="0;0.08;1" dur="20s" begin="13.2s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="s5"><rect x="-140" y="199" width="150" height="52"><animate attributeName="x" values="-140;669;669" keyTimes="0;0.08;1" dur="20s" begin="17.2s" repeatCount="indefinite"/></rect></clipPath>
     <style><![CDATA[
       .mono { font-family: "Fira Code","Cascadia Code",Consolas,"DejaVu Sans Mono",monospace; }
       .sans { font-family: -apple-system,"Segoe UI",Helvetica,Arial,sans-serif; }
+      .name { font-size: 52px; font-weight: 700; fill: url(#nameGrad); letter-spacing: -0.5px; }
+      .nameShine { font-size: 52px; font-weight: 700; fill: url(#shineGrad); letter-spacing: -0.5px; }
       .typed { font-size: 34px; font-weight: 700; fill: url(#textGrad); }
       .shiny { font-size: 34px; font-weight: 700; fill: url(#shineGrad); }
       .kicker { font-size: 15px; fill: #7EE787; }
@@ -71,94 +84,102 @@
   </defs>
 
   <g class="card">
-    <rect x="6" y="6" width="828" height="248" rx="20" fill="#0D1117" fill-opacity="0.93"/>
+    <rect x="6" y="6" width="828" height="360" rx="20" fill="#0D1117" fill-opacity="0.93"/>
 
     <g clip-path="url(#cardClip)">
-      <circle class="orb1" cx="770" cy="48" r="86" fill="#1F6FEB" opacity="0.30" filter="url(#orbBlur)"/>
-      <circle class="orb2" cx="110" cy="238" r="76" fill="#A371F7" opacity="0.26" filter="url(#orbBlur)"/>
+      <circle class="orb1" cx="770" cy="159" r="86" fill="#1F6FEB" opacity="0.30" filter="url(#orbBlur)"/>
+      <circle class="orb2" cx="110" cy="349" r="76" fill="#A371F7" opacity="0.26" filter="url(#orbBlur)"/>
 
-      <circle class="p" cx="180" cy="210" r="2.5" fill="#58A6FF" style="animation-duration:9s;animation-delay:0s"/>
-      <circle class="p" cx="320" cy="235" r="2" fill="#BC8CFF" style="animation-duration:12s;animation-delay:2.5s"/>
-      <circle class="p" cx="470" cy="220" r="2.5" fill="#3FB950" style="animation-duration:10s;animation-delay:1.2s"/>
-      <circle class="p" cx="640" cy="240" r="2" fill="#F778BA" style="animation-duration:13s;animation-delay:4s"/>
-      <circle class="p" cx="730" cy="215" r="2.5" fill="#58A6FF" style="animation-duration:11s;animation-delay:3.2s"/>
-      <circle class="p" cx="255" cy="228" r="1.8" fill="#7EE787" style="animation-duration:14s;animation-delay:5.4s"/>
-      <circle class="p" cx="560" cy="232" r="1.8" fill="#BC8CFF" style="animation-duration:9.5s;animation-delay:6.1s"/>
-      <circle class="p" cx="95" cy="205" r="2.2" fill="#F778BA" style="animation-duration:12.5s;animation-delay:.8s"/>
-      <circle class="p" cx="815" cy="230" r="2" fill="#3FB950" style="animation-duration:10.5s;animation-delay:7.3s"/>
-      <circle class="p" cx="410" cy="245" r="1.6" fill="#58A6FF" style="animation-duration:13.5s;animation-delay:8.2s"/>
+      <circle class="p" cx="180" cy="321" r="2.5" fill="#58A6FF" style="animation-duration:9s;animation-delay:0s"/>
+      <circle class="p" cx="320" cy="346" r="2" fill="#BC8CFF" style="animation-duration:12s;animation-delay:2.5s"/>
+      <circle class="p" cx="470" cy="331" r="2.5" fill="#3FB950" style="animation-duration:10s;animation-delay:1.2s"/>
+      <circle class="p" cx="640" cy="351" r="2" fill="#F778BA" style="animation-duration:13s;animation-delay:4s"/>
+      <circle class="p" cx="730" cy="326" r="2.5" fill="#58A6FF" style="animation-duration:11s;animation-delay:3.2s"/>
+      <circle class="p" cx="255" cy="339" r="1.8" fill="#7EE787" style="animation-duration:14s;animation-delay:5.4s"/>
+      <circle class="p" cx="560" cy="343" r="1.8" fill="#BC8CFF" style="animation-duration:9.5s;animation-delay:6.1s"/>
+      <circle class="p" cx="95" cy="316" r="2.2" fill="#F778BA" style="animation-duration:12.5s;animation-delay:.8s"/>
+      <circle class="p" cx="815" cy="341" r="2" fill="#3FB950" style="animation-duration:10.5s;animation-delay:7.3s"/>
+      <circle class="p" cx="410" cy="356" r="1.6" fill="#58A6FF" style="animation-duration:13.5s;animation-delay:8.2s"/>
     </g>
 
-    <rect x="7" y="7" width="826" height="246" rx="19" fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
+    <rect x="7" y="7" width="826" height="358" rx="19" fill="none" stroke="url(#borderGrad)" stroke-width="2"/>
 
-    <text class="mono kicker" x="48" y="60">$ echo "hi, I'm Abdur Rahman"</text>
-    <rect class="kcur" x="314" y="48" width="9" height="14" fill="#7EE787"/>
+    <text class="mono kicker" x="48" y="56">$ echo "hi, I'm Abdur Rahman"</text>
+    <rect class="kcur" x="314" y="44" width="9" height="14" fill="#7EE787"/>
 
-    <rect x="608" y="40" width="196" height="26" rx="13" fill="#12261A" stroke="#238636" stroke-width="1"/>
-    <circle class="adot" cx="624" cy="53" r="4.5" fill="#3FB950"/>
-    <text class="sans availText" x="636" y="57">Open to opportunities</text>
+    <rect x="608" y="36" width="196" height="26" rx="13" fill="#12261A" stroke="#238636" stroke-width="1"/>
+    <circle class="adot" cx="624" cy="49" r="4.5" fill="#3FB950"/>
+    <text class="sans availText" x="636" y="53">Open to opportunities</text>
+
+    <g>
+      <text class="sans name" x="48" y="146">Abdur Rahman</text>
+      <text class="sans nameShine" x="48" y="146" clip-path="url(#nameClip)">Abdur Rahman</text>
+    </g>
+    <rect x="48" y="166" width="240" height="5" rx="2.5" fill="url(#barGrad)">
+      <animate attributeName="width" values="180;300;240;180" keyTimes="0;0.4;0.7;1" dur="7s" repeatCount="indefinite"/>
+    </rect>
 
     <g clip-path="url(#t1)">
-      <text class="mono typed" x="48" y="125">Backend Developer</text>
-      <text class="mono shiny" x="48" y="125" clip-path="url(#s1)">Backend Developer</text>
+      <text class="mono typed" x="48" y="236">Backend Developer</text>
+      <text class="mono shiny" x="48" y="236" clip-path="url(#s1)">Backend Developer</text>
     </g>
     <g clip-path="url(#t2)">
-      <text class="mono typed" x="48" y="125">Python Engineer</text>
-      <text class="mono shiny" x="48" y="125" clip-path="url(#s2)">Python Engineer</text>
+      <text class="mono typed" x="48" y="236">Python Engineer</text>
+      <text class="mono shiny" x="48" y="236" clip-path="url(#s2)">Python Engineer</text>
     </g>
     <g clip-path="url(#t3)">
-      <text class="mono typed" x="48" y="125">AI Engineer</text>
-      <text class="mono shiny" x="48" y="125" clip-path="url(#s3)">AI Engineer</text>
+      <text class="mono typed" x="48" y="236">AI Engineer</text>
+      <text class="mono shiny" x="48" y="236" clip-path="url(#s3)">AI Engineer</text>
     </g>
     <g clip-path="url(#t4)">
-      <text class="mono typed" x="48" y="125">REST APIs &amp; Microservices</text>
-      <text class="mono shiny" x="48" y="125" clip-path="url(#s4)">REST APIs &amp; Microservices</text>
+      <text class="mono typed" x="48" y="236">REST APIs &amp; Microservices</text>
+      <text class="mono shiny" x="48" y="236" clip-path="url(#s4)">REST APIs &amp; Microservices</text>
     </g>
     <g clip-path="url(#t5)">
-      <text class="mono typed" x="48" y="125">Open-source Contributor</text>
-      <text class="mono shiny" x="48" y="125" clip-path="url(#s5)">Open-source Contributor</text>
+      <text class="mono typed" x="48" y="236">Open-source Contributor</text>
+      <text class="mono shiny" x="48" y="236" clip-path="url(#s5)">Open-source Contributor</text>
     </g>
-    <rect class="mcur" x="48" y="98" width="11" height="34" rx="2" fill="#BC8CFF" filter="url(#glow)">
+    <rect class="mcur" x="48" y="209" width="11" height="34" rx="2" fill="#BC8CFF" filter="url(#glow)">
       <animate attributeName="x" values="48;404;404;48;363;363;48;281;281;48;568;568;48;527;527;48" keyTimes="0;0.055;0.16;0.20;0.255;0.36;0.40;0.455;0.56;0.60;0.655;0.76;0.80;0.855;0.96;1" dur="20s" begin="0s" repeatCount="indefinite"/>
     </rect>
 
     <g>
       <g class="pill" style="animation-delay:0s">
-        <rect x="48" y="155" width="84" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
-        <circle cx="66" cy="172" r="5" fill="#3776AB"/>
-        <text class="sans pillText" x="78" y="177">Python</text>
+        <rect x="48" y="266" width="84" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+        <circle cx="66" cy="283" r="5" fill="#3776AB"/>
+        <text class="sans pillText" x="78" y="288">Python</text>
       </g>
       <g class="pill" style="animation-delay:.4s">
-        <rect x="142" y="155" width="90" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
-        <circle cx="160" cy="172" r="5" fill="#009688"/>
-        <text class="sans pillText" x="172" y="177">FastAPI</text>
+        <rect x="142" y="266" width="90" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+        <circle cx="160" cy="283" r="5" fill="#009688"/>
+        <text class="sans pillText" x="172" y="288">FastAPI</text>
       </g>
       <g class="pill" style="animation-delay:.8s">
-        <rect x="242" y="155" width="86" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
-        <circle cx="260" cy="172" r="5" fill="#44B78B"/>
-        <text class="sans pillText" x="272" y="177">Django</text>
+        <rect x="242" y="266" width="86" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+        <circle cx="260" cy="283" r="5" fill="#44B78B"/>
+        <text class="sans pillText" x="272" y="288">Django</text>
       </g>
       <g class="pill" style="animation-delay:1.2s">
-        <rect x="338" y="155" width="112" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
-        <circle cx="356" cy="172" r="5" fill="#4169E1"/>
-        <text class="sans pillText" x="368" y="177">PostgreSQL</text>
+        <rect x="338" y="266" width="112" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+        <circle cx="356" cy="283" r="5" fill="#4169E1"/>
+        <text class="sans pillText" x="368" y="288">PostgreSQL</text>
       </g>
       <g class="pill" style="animation-delay:1.6s">
-        <rect x="460" y="155" width="86" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
-        <circle cx="478" cy="172" r="5" fill="#2496ED"/>
-        <text class="sans pillText" x="490" y="177">Docker</text>
+        <rect x="460" y="266" width="86" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+        <circle cx="478" cy="283" r="5" fill="#2496ED"/>
+        <text class="sans pillText" x="490" y="288">Docker</text>
       </g>
       <g class="pill" style="animation-delay:2s">
-        <rect x="556" y="155" width="64" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
-        <circle cx="574" cy="172" r="5" fill="#F05032"/>
-        <text class="sans pillText" x="586" y="177">Git</text>
+        <rect x="556" y="266" width="64" height="34" rx="17" fill="#161B22" stroke="#30363D"/>
+        <circle cx="574" cy="283" r="5" fill="#F05032"/>
+        <text class="sans pillText" x="586" y="288">Git</text>
       </g>
     </g>
 
-    <path class="sp" d="M0,-7 L1.9,-1.9 7,0 1.9,1.9 0,7 -1.9,1.9 -7,0 -1.9,-1.9 Z" fill="#7EE787" transform="translate(700,118)"/>
-    <path class="sp" style="animation-delay:.9s" d="M0,-7 L1.9,-1.9 7,0 1.9,1.9 0,7 -1.9,1.9 -7,0 -1.9,-1.9 Z" fill="#BC8CFF" transform="translate(764,150)"/>
-    <path class="sp" style="animation-delay:1.7s" d="M0,-7 L1.9,-1.9 7,0 1.9,1.9 0,7 -1.9,1.9 -7,0 -1.9,-1.9 Z" fill="#58A6FF" transform="translate(648,96)"/>
+    <path class="sp" d="M0,-7 L1.9,-1.9 7,0 1.9,1.9 0,7 -1.9,1.9 -7,0 -1.9,-1.9 Z" fill="#7EE787" transform="translate(700,229)"/>
+    <path class="sp" style="animation-delay:.9s" d="M0,-7 L1.9,-1.9 7,0 1.9,1.9 0,7 -1.9,1.9 -7,0 -1.9,-1.9 Z" fill="#BC8CFF" transform="translate(764,261)"/>
+    <path class="sp" style="animation-delay:1.7s" d="M0,-7 L1.9,-1.9 7,0 1.9,1.9 0,7 -1.9,1.9 -7,0 -1.9,-1.9 Z" fill="#58A6FF" transform="translate(648,207)"/>
 
-    <text class="sans foot" x="790" y="234" text-anchor="end">backend · ai · clean code · performance · security</text>
+    <text class="sans foot" x="790" y="345" text-anchor="end">backend · ai · clean code · performance · security</text>
   </g>
 </svg>

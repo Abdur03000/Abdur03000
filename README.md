@@ -4,11 +4,9 @@
   </a>
 </p>
 
-<h1 align="center">Abdur Rahman</h1>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Abdur03000/Abdur03000/main/typing.svg" width="100%" alt="Animated bio: Backend Developer, Python Engineer, AI Engineer, REST APIs and Microservices, Open-source Contributor">
-</p>
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/Abdur03000/Abdur03000/main/typing.svg" width="100%" alt="Abdur Rahman — Backend Developer, Python Engineer, AI Engineer, REST APIs and Microservices, Open-source Contributor">
+</h1>
 
 ---
 
