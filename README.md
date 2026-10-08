@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Abdur03000/Abdur03000/main/typing.svg" width="400" alt="Backend Developer, Python Engineer, REST APIs and Microservices, Open-source Contributor">
+  <img src="https://raw.githubusercontent.com/Abdur03000/Abdur03000/main/typing.svg" width="100%" alt="Backend Developer, Python Engineer, REST APIs and Microservices, Open-source Contributor">
 </p>
 
 ---
